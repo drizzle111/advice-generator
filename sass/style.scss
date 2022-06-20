@@ -1,7 +1,6 @@
 @import './resets';
-@import url("https://fonts.google.com/specimen/Manrope");
 body {
-    font-family: Manrope, sans-serif;
+    font-family: sans-serif;
     background-color: hsl(218, 23%, 16%);
     position: absolute;
     top: 50%;
@@ -16,7 +15,7 @@ body {
     padding: .75rem;
     margin-bottom: 20px;
     p {
-        font-size: 28px;
+        font-size: 1.5rem;
     }
 }
 
@@ -49,6 +48,7 @@ img {
 .dice {
     background-color: hsl(150, 100%, 66%);
     width: 20px;
+    cursor: pointer;
 }
 
 @media(min-width:767px) {
